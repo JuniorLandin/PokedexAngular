@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import './conf-scss/reset.scss';
+@import './conf-scss/variables.scss';
+@import './conf-scss/rem-calc.scss';
+@import './conf-scss/btn.scss';
+@import './conf-scss/animation.scss';
+
+html{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: var(--p-color);
+}
+
+main{
+    width: rem-calc(600);
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+

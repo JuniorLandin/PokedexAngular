@@ -1,0 +1,75 @@
+:host{
+    .listagem{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    
+        padding: 20px 0;
+    
+    
+        .pokemon{
+            display: flex;
+            position: relative;
+    
+            height: 160px;
+    
+            margin-top: 40px;
+    
+            width: 49%;
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+    
+            text-decoration: none;
+            color: black;
+    
+            &_status{
+                h2{
+                    font-size: 22px;
+                    font-style: italic;
+                    font-weight: bold;
+                    margin-bottom: 10px;
+                    text-transform: capitalize;
+                    text-decoration: none;
+                }
+                ul{
+                    display: flex;
+                    flex-direction: column;
+    
+                    li{
+                        background: #efefef;
+                        border-radius: 50%;
+                        
+                        width: 66px;
+                        margin-bottom: 5px;
+    
+                        font-size: 14px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+            }
+    
+            &_image{
+                position: absolute;
+    
+                display: flex;
+                align-items: center;
+                justify-content: center;
+    
+                height: 90px;
+                width: 110px;
+    
+                bottom: 20px;
+                right: 20px;
+    
+                background: url(../../../assets/podemonCard/BackPoke.svg) no-repeat;
+                img{
+                    width: 70px;
+                }
+            }
+        }
+    }
+}
